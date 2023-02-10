@@ -16,7 +16,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 40px 10%;
+
 }
 
 li, a, button {
@@ -24,13 +25,29 @@ li, a, button {
     font-size: 16px;
     color: white;
     text-decoration: none;
+    
 }
 
+li, a:hover {
+    color: #FFC1CC;
+    transition: ease-in-out 200ms;
+}
 button {
     padding: 9px 25px;
     background-color: #7f5af0;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px
+}
+
+button:hover {
+    background-color: #5e45aa;
+    transition: ease-in-out 200ms;
 }
 
 
