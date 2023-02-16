@@ -45,11 +45,112 @@ li {
     padding: 0px 20px;
 }
 
-button:hover {
+button > header :hover {
     background-color: #5e45aa;
     transition: ease-in-out 200ms;
 }
 
 #homepage, #accomplishments, #abtme, #parauno, #photome {
     text-align: center;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+font-size: 36px;
+font-weight: 5000;
+}
+
+.contact .content p{
+    font-weight: 5000;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contactinfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.contact .contactinfo .box .icon {
+   min-width: 60px;
+   height: 60px;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-size: 22px;
+}
+
+.contact .contactinfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contact .contactinfo .box .text h3 {
+    font-weight: 500;
+    color: #FFC1CC;
+}
+
+.ContactForm {
+    width: 50%;
+    height: 50%;
+}
+
+
+.ContactForm .inputbox input, 
+.ContactForm .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-style: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: solid #333;
+    outline: none;
+    resize: none;
+}
+
+.ContactForm .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-style: 16px;
+    margin: 10px 0;
+}
+
+input, textarea {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 4px 4px 4px 4px white;
 }
