@@ -24,7 +24,6 @@ li, a, button {
     font-size: 16px;
     color: white;
     text-decoration: none;
-    
 }
 
 li, a:hover {
@@ -125,4 +124,26 @@ tr td {
 
 .paraone {
     padding-top: 40px;
+}
+
+@media (min-width: 600px) {
+    p {
+      font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 800px) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 10%;
+    }
 }
