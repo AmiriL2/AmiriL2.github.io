@@ -44,9 +44,6 @@ li {
     padding: 0px 20px;
 }
 
-#homepage, #accomplishments, #abtme, #parauno, #photome {
-    text-align: center;
-}
 
 .container {
     width: 80%;
@@ -118,10 +115,6 @@ tr td {
     padding-top: 20px;
 }
 
-.piccture {
-    float: left;
-}
-
 .paraone {
     padding-top: 40px;
 }
@@ -147,6 +140,11 @@ tr td {
         padding: 40px 10%;
         width: 100%;
     }
+    li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+ 
 }
 @media screen and (max-width:480px) {
     .contact-box {
@@ -162,6 +160,55 @@ tr td {
         flex-basis: 40%;
         padding: 40px ;
         padding-left: 10px;
+        font-size: 11px;
     }
     
+    
 }
+
+.accomp {
+    padding: 30px;
+
+}
+
+.floorplanwrds, .soho, .Internship {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 700;
+
+}
+
+@media screen and (max-width:480px){
+    .floorplanwrds, .soho, .Internship {
+     padding-top: 50px;
+     padding-bottom: 20px;
+     font-weight: 700;
+    }
+}
+
+.accompimg {
+    width: 800px;
+}
+
+.piccture {
+    width: 600px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width:480px) {
+    .accompimg {
+        width: 450px;
+    }
+    .piccture {
+        width: 400px;
+        padding: 50px
+    }
+}
+ @media screen and (min-width: 3024px)  {
+    main { 
+        max-width: 1200px;
+        margin: auto;
+     }
+ }
+
+ 
