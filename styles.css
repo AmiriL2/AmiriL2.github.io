@@ -145,5 +145,23 @@ tr td {
         justify-content: space-between;
         align-items: center;
         padding: 40px 10%;
+        width: 100%;
     }
 }
+@media screen and (max-width: 481px) {
+    .contact-box {
+        flex-direction: column;
+    }
+    .contact-left {
+        flex-basis: 60%;
+        padding: 40px 70px;
+        color: #16161a;
+        background: white;
+    }
+    .contact-right {
+        flex-basis: 40%;
+        padding: 40px ;
+        padding-left: 10px;
+    }
+    
+    }
