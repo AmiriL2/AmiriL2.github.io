@@ -139,7 +139,7 @@ tr td {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
     header {
         display: flex;
         justify-content: space-between;
@@ -148,7 +148,7 @@ tr td {
         width: 100%;
     }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width:480px) {
     .contact-box {
         flex-direction: column;
     }
