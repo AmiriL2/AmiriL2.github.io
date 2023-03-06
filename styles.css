@@ -187,20 +187,20 @@ tr td {
 }
 
 .accompimg {
-    width: 800px;
+    width: 700px;
 }
 
 .piccture {
-    width: 600px;
+    width: 500px;
     padding-top: 50px;
 }
 
 @media screen and (max-width:480px) {
     .accompimg {
-        width: 450px;
+        width: 330px;
     }
     .piccture {
-        width: 400px;
+        width: 330px;
         padding: 50px
     }
 }
