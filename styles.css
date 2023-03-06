@@ -19,6 +19,8 @@ header {
     padding: 40px 10%;
 }
 
+
+
 li, a, button {
     font-weight: 500;
     font-size: 16px;
@@ -43,7 +45,6 @@ li {
     display: inline-block;
     padding: 0px 20px;
 }
-
 
 .container {
     width: 80%;
@@ -168,7 +169,6 @@ tr td {
 
 .accomp {
     padding: 30px;
-
 }
 
 .floorplanwrds, .soho, .Internship {
@@ -188,20 +188,17 @@ tr td {
 
 .accompimg {
     width: 700px;
+    border-radius: 10px;
 }
-
 .piccture {
-    width: 500px;
-    padding-top: 50px;
+    width: 400px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width:480px) {
     .accompimg {
         width: 330px;
-    }
-    .piccture {
-        width: 330px;
-        padding: 50px
+        border-radius: 5px;
     }
 }
  @media screen and (min-width: 3024px)  {
