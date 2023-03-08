@@ -19,8 +19,6 @@ header {
     padding: 40px 10%;
 }
 
-
-
 li, a, button {
     font-weight: 500;
     font-size: 16px;
@@ -208,4 +206,8 @@ tr td {
      }
  }
 
- 
+ .welcomepg {
+   font-size: large;
+   padding-top: 200px;
+   padding-bottom: 25px;
+ }
