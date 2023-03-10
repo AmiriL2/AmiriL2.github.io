@@ -161,8 +161,6 @@ tr td {
         padding-left: 10px;
         font-size: 11px;
     }
-    
-    
 }
 
 .accomp {
@@ -173,7 +171,7 @@ tr td {
     padding-top: 50px;
     padding-bottom: 20px;
     font-weight: 700;
-
+    text-align: center;
 }
 
 @media screen and (max-width:480px){
@@ -182,15 +180,6 @@ tr td {
      padding-bottom: 20px;
      font-weight: 700;
     }
-}
-
-.accompimg {
-    width: 700px;
-    border-radius: 10px;
-}
-.piccture {
-    width: 400px;
-    border-radius: 10px;
 }
 
 @media screen and (max-width:480px) {
@@ -211,3 +200,20 @@ tr td {
    padding-top: 200px;
    padding-bottom: 25px;
  }
+
+ h1 {
+    text-align: center;
+ }
+
+.paraone {
+    text-align: center;
+ }
+
+.accompimg{
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Welcomect {
+   padding-left: 45%;
+}
