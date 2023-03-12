@@ -2,9 +2,14 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    background: #16161a;
+    background-color: #16161a;
     color: #fffffe;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
+
 
 * {
     box-sizing: border-box;
@@ -41,13 +46,13 @@ li {
 }
 
 li, a:hover {
-    color: pink;
+    color: #7f5af0;
     transition: ease-in 200ms;
 }
 
 .container {
     width: 80%;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 .contact-box {
@@ -146,6 +151,7 @@ tr td {
     }
  
 }
+
 @media screen and (max-width:480px) {
     .contact-box {
         flex-direction: column;
@@ -166,6 +172,7 @@ tr td {
 
 .accomp {
     padding: 30px;
+    text-align: center;
 }
 
 .floorplanwrds, .soho, .Internship {
@@ -182,30 +189,29 @@ tr td {
      font-weight: 700;}
 
     .accompimge{
-        padding-left: 40px;
+        text-align: center;
     }
-
-    .welcomepg {
-        font-size: medium;
-        padding-top: 200px;
-        padding-bottom: 25px;
-      }
 }
 
- @media screen and (min-width: 3024px)  {
+
+@media screen and (min-width: 3024px)  {
     main { 
         max-width: 1200px;
         margin: auto;
      }
- }
+     
+    .accompimge{
+        text-align: center;
+    }
+}
 
- .welcomepg {
-   font-size: medium;
-   padding-top: 200px;
-   padding-bottom: 25px;
- }
+.welcomepg {
+justify-content: center;
+align-self: center;
+padding-top: 20%;
+}
 
- h1 {
+h1 {
     text-align: center;
  }
 
@@ -213,21 +219,30 @@ tr td {
     text-align: center;
  }
 
-.accompimg{
+.accompimg, .accompimge{
     text-align: center;
     border-radius: 20px;
 }
 
-.Welcomect {
-   padding-left: 45%;
-}
-
 .resumelink {
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .hyper {
     font-size: 24px;
 }
+.highlight {
+    text-transform: uppercase;
+    color: #7f5af0;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+}
 
+.cta {
+    justify-content: center;
+    display: flex;
+}
