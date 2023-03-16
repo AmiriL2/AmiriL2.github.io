@@ -4,12 +4,8 @@ body {
     font-family: 'Roboto Mono', monospace;
     background-color: #16161a;
     color: #fffffe;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
 }
-
+         
 
 * {
     box-sizing: border-box;
@@ -138,10 +134,14 @@ tr td {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        background-image: url(sunset.jpg);
+        height: 100%;
+        width: 100%;
+    }
     header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         padding: 40px 10%;
         width: 100%;
     }
@@ -149,6 +149,7 @@ tr td {
         display: inline-block;
         padding: 0px 10px;
     }
+    
  
 }
 
@@ -166,7 +167,7 @@ tr td {
         flex-basis: 40%;
         padding: 40px ;
         padding-left: 10px;
-        font-size: 11px;
+        font-size: 15px;
     }
 }
 
@@ -175,7 +176,7 @@ tr td {
     text-align: center;
 }
 
-.floorplanwrds, .soho, .Internship {
+.floorplanwrds, .soho, .Internship, .HTMLCERT {
     padding-top: 50px;
     padding-bottom: 20px;
     font-weight: 700;
@@ -183,16 +184,17 @@ tr td {
 }
 
 @media screen and (max-width: 480px){
-    .floorplanwrds, .soho, .Internship {
+    .floorplanwrds, .soho, .Internship, .HTMLCERT {
      padding-top: 50px;
      padding-bottom: 20px;
-     font-weight: 700;}
+     font-weight: 700;
+    }
 
     .accompimge{
         text-align: center;
     }
+    
 }
-
 
 @media screen and (min-width: 3024px)  {
     main { 
@@ -246,3 +248,4 @@ h1 {
     justify-content: center;
     display: flex;
 }
+ 
