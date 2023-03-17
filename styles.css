@@ -64,7 +64,7 @@ li, a:hover {
 
 .contact-right {
     flex-basis: 40%;
-    padding: 40px ;
+    padding: 40px;
 }
 
 h1 {
@@ -183,7 +183,7 @@ tr td {
     text-align: center;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .floorplanwrds, .soho, .Internship, .HTMLCERT {
      padding-top: 50px;
      padding-bottom: 20px;
@@ -193,7 +193,18 @@ tr td {
     .accompimge{
         text-align: center;
     }
-    
+    .accompimg {
+        max-height: 270px;
+        min-width: 270px;
+    }
+
+    .input-row {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        padding: 10px 0px 10px 0px;
+    }
 }
 
 @media screen and (min-width: 3024px)  {
@@ -205,12 +216,16 @@ tr td {
     .accompimge{
         text-align: center;
     }
+
+    .accompimg {
+        max-height: 100%;
+    }
 }
 
 .welcomepg {
 justify-content: center;
 align-self: center;
-padding-top: 20%;
+padding-top: 15%;
 }
 
 h1 {
@@ -237,15 +252,13 @@ h1 {
 }
 .highlight {
     text-transform: uppercase;
-    color: #7f5af0;
+    color: #7b54ef;
     font-weight: bold;
     font-size: 30px;
     justify-content: center;
-    display: flex;
 }
 
 .cta {
     justify-content: center;
     display: flex;
 }
- 
