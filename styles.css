@@ -193,7 +193,7 @@ tr td {
     .accompimge{
         text-align: center;
     }
-    .accompimg {
+    .accompimg .certificate{
         max-height: 270px;
         min-width: 270px;
     }
@@ -217,7 +217,7 @@ tr td {
         text-align: center;
     }
 
-    .accompimg {
+    .accompimg .certificate{
         max-height: 100%;
     }
 }
@@ -236,7 +236,7 @@ h1 {
     text-align: center;
  }
 
-.accompimg, .accompimge{
+.accompimg, .accompimge .certificate{
     text-align: center;
     border-radius: 20px;
 }
@@ -262,3 +262,5 @@ h1 {
     justify-content: center;
     display: flex;
 }
+
+
