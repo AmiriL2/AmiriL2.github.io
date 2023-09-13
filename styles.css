@@ -236,7 +236,7 @@ h1 {
     text-align: center;
  }
 
-.accompimg, .accompimge .certificate{
+.accompimg .certificate {
     text-align: center;
     border-radius: 20px;
 }
@@ -263,4 +263,6 @@ h1 {
     display: flex;
 }
 
-
+.accompimg, .accompimge{
+    text-align: center;
+}
